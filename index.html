@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>Mateo Rios Pena | Web Designer</title>
+
+  <!-- Font and Google Icons (Symbols) -->
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+
+
+  <!-- NAVIGATION: each href matches the id of a section below  -->
+  <header class="nav">
+     <a class="nav-logo" href="#hero">Mateo Rios Pena</a>
+    <nav>
+      <ul>
+         <li><a href="#hero">Home</a></li>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+ 
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <h1>Hi, I'm Mateo Rios Pena. I build websites.</h1>
+      <p>I'm a web development student learning to turn ideas into clean, working pages.</p>
+      <div class="buttons">
+        <a class="button" href="#projects">See my projects</a>
+        <a class="button button-outline" href="#about">About me</a>
+      </div>
+    </section>
+ 
+    <!-- BIO -->
+    <section id="bio" class="section">
+      <h2>Bio</h2>
+      <div class="bio-layout">
+        <!-- Replace photo.jpg with your own photo, or delete this img tag -->
+        <img class="photo" src="Mateo_Photo.jpeg" alt="Photo of Mateo Rios Pena">
+        <p>
+          I'm a student at the University of Texas at Dallas, studying Computer Science. I started
+          coding because I accidentally joined a CS class in high school and wound up fascinated by the subject.
+          This site collects the projects I make in my courses, and I'll keep
+          adding to it as I learn.
+        </p>
+      </div>
+    </section>
+ 
+    <!-- SKILLS: change the icon name inside each <span> to swap icons.
+         Browse names at fonts.google.com/icons -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li><span class="material-symbols-outlined">html</span> HTML</li>
+        <li><span class="material-symbols-outlined">css</span> CSS</li>
+        <li><span class="material-symbols-outlined">javascript</span> JavaScript</li>
+        <li><span class="material-symbols-outlined">palette</span> Visual design</li>
+        <li><span class="material-symbols-outlined">account_tree</span> Git</li>
+        <li><span class="material-symbols-outlined">coffee</span> Java</li>
+        <li><span class="material-symbols-outlined">terminal</span> Python</li>
+      </ul>
+    </section>
+ 
+    <!-- PAST PROJECTS: copy one <article> block to add a new project -->
+    <section id="projects" class="section">
+      <h2>Past projects</h2>
+      <div class="projects">
+ 
+        <article class="project">
+          <h3>Escape Theater</h3>
+          <p>One of my first ever projects. It's a very basic choose your own adventure game built in Java.</p>
+          <a href="https://github.com/Mateo-Rios-Pena/escape-theater">View project</a>
+        </article>
+ 
+        <article class="project">
+          <h3>Black Hole</h3>
+          <p>One of my hardest projects ever. It's a program that lets you play the pen and paper game "Black Hole" built in Assembly.</p>
+          <a href="https://github.com/Mateo-Rios-Pena/Black-Hole">View project</a>
+        </article>
+ 
+      </div>
+    </section>
+ 
+    <!-- ABOUT ME -->
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <p>
+        Outside of class, I enjoy playing video games, writing stories, and reading. I'm interested in
+        exploring many of the fields that computer science has to offer. I particularly like the Cybersecurity and Video Game Development fields.
+      </p>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        If you'd like to work together or just say hi, email me at
+        <a href="mailto:soulsjohn038@gmail.com">soulsjohn038@gmail.com</a>.
+      </p>
+    </section>
+
+
+  </main>
+ 
+  <footer class="footer">
+    <p>&copy; 2026 Mateo Rios Pena</p>
+  </footer>
+ 
 </body>
 </html>
+ 
